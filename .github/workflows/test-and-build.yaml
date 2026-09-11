@@ -1,9 +1,6 @@
 name: Testing and building my application
 on: 
-  push:
-    branches: [main]
-    paths:
-      - '**/*.js'
+  push
 jobs:
   test:
     runs-on: ubuntu-slim
